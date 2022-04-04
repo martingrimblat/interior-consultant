@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 95%;
+	text-overflow: auto;
+	margin: auto;
+	margin-top: 30px;
+	max-width: 1440px
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-1 {
+	display: flex;
+}
+
+.card-info {
+	align-self: center;
+}
+
+.flex-2 {
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 2fr 8fr 9fr;
+	grid-template-areas: "logo . links";
+	justify-content: space-between;
+}
