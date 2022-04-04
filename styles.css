@@ -124,3 +124,12 @@ body {
 	line-height: 31px;
 	width: 287px;
 }
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+	.flex {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
