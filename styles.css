@@ -15,7 +15,7 @@ body {
 }
 
 .logo {
-
+	display: flex;
 	box-sizing: border-box;
 }
 
@@ -41,7 +41,8 @@ body {
 }
 
 .navbar{
-	margin-bottom: 150px
+	margin-bottom: 150px;
+
 }
 
 .description {
@@ -89,6 +90,7 @@ body {
 	position: relative;
 	bottom:80px;
 	left:50%;
+	display: block;
 	padding: 20px 0 0 30px;
 }
 
